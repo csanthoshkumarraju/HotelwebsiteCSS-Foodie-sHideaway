@@ -1,5 +1,6 @@
 # HotelwebsiteCSS-Foodie-sHideaway
 /*  * is selecting all html code */
+/*  * is selecting all html code */
 *
 {
   padding:0;
@@ -7,39 +8,43 @@
   box-sizing: border-box
 }
 html {
-  font-size:62.5%
+  font-size:61.5%
 }
 body {
-  font-family: sans-serif;
+  font-family: "inter" sans-serif;
   line-height:1;
-  font-weight:400;
+  font-weight:600;
   color:#555;
 }
 /* .hero is class. classes , ids are used to design specified fields or parts in pages */
 .hero-section{
   background-color: #e98b38;
-  padding: 9.6rem 0;
+  padding: 5rem 0;
+  
 }
 .hero {
   max-width:80rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
-  align-items: center;
 }
 
 .heading {
-  font_size: 1000px;
+  font_size: 100px;
   font-weight:100px;
   line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
+  margin-left: 3.2rem;
+
+  
 }
 .Description {
   font_size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+  margin-left: 3.2rem;
 }
 .button:link, .button:visited {
   display: inline-block;
@@ -51,6 +56,7 @@ body {
   border-radius: 15px;
   transition: all 1s;
   margin-right: 1.6rem;
+  margin-left: 3.7rem;
 }
 .button:hover, 
 .button:active {
@@ -61,5 +67,18 @@ body {
 
 .hero-pic {
   width :100%;
+  border-radius: 20px;
+  padding: 10px;
 }
+.Served {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.Human::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 

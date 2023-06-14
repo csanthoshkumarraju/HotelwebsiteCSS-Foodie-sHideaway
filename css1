@@ -14,9 +14,9 @@ body {
   font-weight:600;
   color:#555;
 }
-/* .hero is class. classes , ids are used to design specified fields or parts in pages */
+/* .hero is class. classes , ids are used to design specified fields or parts in pages  #e98b38 */
 .hero-section{
-  background-color: #e98b38;
+  background-color: #ffc068; 
   padding: 5rem 0;
   
 }
@@ -76,14 +76,25 @@ body {
   flex: 33.33%;
   padding: 5px;
 }
+.pictures {
+  font-size: 23px;
+  color:#343434;
+  background-color:#EDEADE;
+  font-weight: 10px;
+  padding:13px;
+  letter-spacing: 1px;
+}
+/* Reviews need to be place at last. */
+/* ***************************************************************************************************************************************** */
+/* 
 .customers {
-/*   letter-spacing: -0.5px;
+  letter-spacing: -0.5px; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 3rem;
   font-weight: 10px;
   padding: 1rem 2rem; */
-  max-width:80rem;
+  /*max-width:80rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 9.6rem;
@@ -107,7 +118,9 @@ body {
   border-radius: 100px;
   padding: 21px;
   max-width:100px;
-}
+}  */
+/* Reviews need to be place at last. */
+/* ***************************************************************************************************************************************** */
 /* div.Human:third {
   margin-top: 20px;
   padding: 20px;

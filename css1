@@ -15,6 +15,10 @@ body {
   color:#555;
 }
 /* .hero is class. classes , ids are used to design specified fields or parts in pages  #e98b38 */
+/*  ****************************************
+          hero-section
+********************************************
+*/
 .hero-section{
   background-color: #ffc068; 
   padding: 5rem 0;
@@ -145,7 +149,39 @@ body {
   color: #343434;
   box-shadow: 0 0 0 4px #007FFF;
 }
-/* #fffaf0 */
+/*  ****************************************
+          HOW it works section
+********************************************
+*/
+/* .how-section {
+/*   padding: 10px;
+  background-color:orangered;
+}
+.container {
+  max-width:120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display:grid;
+  gap:5rem;
+}
+
+.col-2-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+.col-3-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+.how-section div {
+  padding:70px;
+  font-size:30px;
+} */
+/* .how-section div:nth-child(1) {background-color:aqua;}
+.how-section div:nth-child(2) {background-color:blue;}
+.how-section div:nth-child(3) {background-color:violet;}
+.how-section div:nth-child(4) {background-color:yellow;} */
+
 /* Reviews need to be place at last. */
 /* ***************************************************************************************************************************************** */
 /* 

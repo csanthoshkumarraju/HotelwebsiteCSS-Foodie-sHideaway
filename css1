@@ -14,6 +14,35 @@ body {
   font-weight:600;
   color:#555;
 }
+/* tittle */
+.tittlew {
+  background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    orange,
+                    red);
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.name {
+       font-size:60px;
+       background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    orange,
+                    red);
+       color:white; 
+       padding-left:80px;
+}
+.fi-img {     
+  padding-left:20px;
+  padding-top:4px;
+}
+/* tittle */
 /* .hero is class. classes , ids are used to design specified fields or parts in pages  #e98b38 */
 /*  ****************************************
           hero-section
@@ -97,7 +126,7 @@ body {
 }
 .first-txt {
             position: absolute;
-            top: 155px;
+            top: 190px;
             left: 152px;
             background: linear-gradient(to left,
                     violet,
@@ -153,9 +182,9 @@ body {
           HOW it works section
 ********************************************
 */
-/* .how-section {
-/*   padding: 10px;
-  background-color:orangered;
+.how-section {
+   padding: 10px;
+   background-color:orangered;
 }
 .container {
   max-width:120rem;
@@ -176,7 +205,11 @@ body {
 .how-section div {
   padding:70px;
   font-size:30px;
-} */
+} 
+.step-img {
+  width: 100%;
+  border-radius: 7px;
+}
 /* .how-section div:nth-child(1) {background-color:aqua;}
 .how-section div:nth-child(2) {background-color:blue;}
 .how-section div:nth-child(3) {background-color:violet;}

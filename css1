@@ -14,7 +14,9 @@ body {
   font-weight:600;
   color:#555;
 }
-/* tittle */
+/* ****************************************
+               tittle start
+*****************************************/
 .tittlew {
   background: linear-gradient(to left,
                     violet,
@@ -42,10 +44,12 @@ body {
   padding-left:20px;
   padding-top:4px;
 }
-/* tittle */
+/* ****************************************
+             tittle end
+*******************************************/
 /* .hero is class. classes , ids are used to design specified fields or parts in pages  #e98b38 */
 /*  ****************************************
-          hero-section
+             hero-section start
 ********************************************
 */
 .hero-section{
@@ -121,6 +125,14 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+/*  ****************************************
+             hero-section end
+********************************************
+*/
+/*  ****************************************
+          hotel pics and description start
+********************************************
+*/
 .Served {
   display: flex;
   background-color: #A0CCF1;
@@ -141,6 +153,14 @@ border-radius:100px;}
   letter-spacing: 1px;
   text-align: justify;
 }
+/*  ****************************************
+          hotel pics and description end
+********************************************
+*/
+/*  ****************************************
+          logo navigation start
+********************************************
+*/
 .header {
   background-color:#ffc068;
 }
@@ -203,7 +223,56 @@ border-radius:100px;}
   box-shadow: 0 0 0 4px #007FFF;
 }
 /*  ****************************************
-          HOW it works section
+          logo navigation end
+********************************************
+*/
+/*  ****************************************
+         As featured in section start
+********************************************
+*/
+.feature {
+  padding:2rem;
+  background-color:#fff7f6;
+}
+.feature-heading {
+  font-size:2.5rem;
+  text-transform:uppercase;
+  letter-spacing:0.75px;
+  font-weight:700;
+  text-align:center;
+  margin-bottom:2.4rem;
+  color:#E0115F;
+}
+.featured-logos {
+  display:flex;
+  justify-content:space-between;
+}
+.featured-logo1 {
+  width:170px;
+  height:130px;
+}
+.featured-logo2 {
+  width:180px;
+  height:130px;
+}
+.featured-logo3 {
+  width:210px;
+  height:130px;
+}
+.featured-logo4 {
+  width:210px;
+  height:130px;
+}
+.featured-logo5 {
+  width:200px;
+  height:100px;
+}
+/*  ****************************************
+         As featured in section end
+********************************************
+*/
+/*  ****************************************
+          HOW it works section start
 ********************************************
 */
 .how-section {
@@ -265,7 +334,40 @@ border-radius:100px;}
 .how-section div:nth-child(2) {background-color:blue;}
 .how-section div:nth-child(3) {background-color:violet;}
 .how-section div:nth-child(4) {background-color:yellow;} */
-
+/*  ****************************************
+          HOW it works section end
+********************************************
+*/
+/*  ****************************************
+         Meals section start
+********************************************
+*/
+.meals-section {
+   padding: 25px;
+   background-color:#f5f5f5;
+}
+.meal-tittle {
+  font-size:2.5rem;
+  color:#333;
+  font-weight:600;
+  margin-bottom:3.1rem
+}
+.meal-Details {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.meal-Detail {
+  font-size: 1.8rem;
+}
+.meal-image {
+  width: 100%;
+}
+/*  ****************************************
+         Meals section end
+********************************************
+*/
 /* Reviews need to be place at last. */
 /* ***************************************************************************************************************************************** */
 /* 

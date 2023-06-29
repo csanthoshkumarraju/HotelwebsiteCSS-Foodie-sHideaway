@@ -353,7 +353,7 @@ border-radius:100px;}
 .meals-second-heading {
   font-size:30px;
   font-weight:400;
-  margin-left:180px;
+  margin-left:300px;
   color:#495057;
   padding:50px;
 }
@@ -468,6 +468,77 @@ border-radius:100px;}
 }
 /*  ****************************************
          Meals section end
+********************************************
+*/
+/*  ****************************************
+         testinomials start
+********************************************
+*/
+.test-head {
+  font-size:3rem;
+  color:#101010;
+  margin-left:280px;
+  margin-bottom:50px;
+}
+.testinomials-heading {
+  font-size:2rem;
+  color:#181818;
+  margin-left:120px;
+  margin-top:20px;
+}
+.testinomials-section {
+    display: grid;
+    grid-template-columns:1fr 1fr;    
+    background-color:white;
+    padding:4rem 0;
+    font-style: normal;
+}
+.testinomials {
+/*   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.4rem; */
+}
+.thumans {
+   width:6.3rem;
+   border-radius:50%;
+   margin-bottom:1.2rem;
+}
+.testinomials-review {
+  font-size:2rem;
+  line-height:1.6;
+  margin-bottom:1.4rem;
+  margin-right:1rem;
+  font-style:none;
+  color:#202020;
+  text-align: justify;
+}
+.human-name {
+  font-size:1.4rem;
+  color:#777;
+  margin-bottom:15px;
+}
+.gallary {
+  display:grid; 
+  grid-template-columns:1fr 1fr;
+  gap:0.5rem;
+  margin-left:20px;
+  margin-top:-1300px;
+}
+.gallary-img {
+  overflow: hidden;
+}
+.gallary-img {
+  width:250px;
+  height:250px;
+  transition:all 0.3s;
+
+}
+.gallary-img:hover {
+  transform:scale(0.9);
+}
+
+/*  ****************************************
+         testinomials end
 ********************************************
 */
 /* Reviews need to be place at last. */

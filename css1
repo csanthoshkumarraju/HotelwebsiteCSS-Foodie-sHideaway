@@ -536,6 +536,106 @@ border-radius:100px;}
 .gallary-img:hover {
   transform:scale(0.9);
 }
+/*  ****************************************
+         pricing section start
+********************************************
+*/
+.pricing-heading {
+  font-size: 20px;
+  color:#7A2100;
+  background-color:#EDEADE;
+  border-radius:6px;
+}
+.prh {
+margin-left:670px;  
+}
+
+.pricing-second-heading {
+  font-size: 27px;
+  color:#495057;
+  margin-left:500px;
+  padding:20px;
+  
+}
+.pricing-section {
+  padding:4rem 0;
+/*   display:grid; */
+  background-color:#F5F5F5;
+  font-style:none;
+}
+.pricing-container {
+  font-style:normal;
+}
+.price-cols {
+  font-style:normal;
+  display: grid;
+  display:flex; 
+  grid-template-columns: repeat(4, 1fr);
+  gap:6rem;
+  line-height:1.5;
+  margin-left:190px;
+}
+.price-list {
+   list-style: none;
+   color:#A52A2A;
+}
+.price-list1 {
+  color:#000000;
+  font-style:normal;
+  list-style: none;
+}
+.Breakfast {
+  display:flex;
+  border-style: solid;
+  border-color: white;
+  background-color:white;
+  margin-left:10px;
+  border-radius:10px;
+  transition: all 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+  .Lunch {
+  display:flex;
+  border-style: solid;
+  border-color: white;
+  background-color:white;
+  border-radius:10px;
+  transition: all 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.snacks {
+  display:flex;
+  border-style: solid;
+  border-color: white;
+  background-color:white;
+  border-radius:10px;
+  transition: all 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dinner {
+  display:flex;
+  border-style: solid;
+  border-color: white;
+  background-color:white;
+  border-radius:10px;
+  transition: all 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.price-info {
+  color:#0a6e77;
+  font-style:normal;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 4.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 8rem;
+  text-align: justify;
+}
+
+/*  ****************************************
+          pricing section end
+********************************************
+*/
 
 /*  ****************************************
          testinomials end

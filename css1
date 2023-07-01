@@ -3,7 +3,7 @@
 {
   padding:0;
   margin:0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 html {
   font-size:61.5%
@@ -53,9 +53,8 @@ body {
 ********************************************
 */
 .hero-section{
-  background-color: #ffc068; 
+  background-color: #fdf2e9; 
   padding: 5rem 0;
-  
 }
 .hero {
   max-width:80rem;
@@ -134,7 +133,8 @@ body {
 */
 .Served {
   display: flex;
-  background-color: #A0CCF1;
+  background-color: #E1EBEE;
+ 
 }
 .Human {
   flex: 33.33%;
@@ -146,7 +146,8 @@ border-radius:100px;}
 .pictures {
   font-size: 23px;
   color:#343434;
-  background-color:#EDEADE;
+  background-color:#F0F8FF;
+/*  #EDEADE  #A0CCF1 */
   font-weight: 10px;
   padding:13px;
   letter-spacing: 1px;
@@ -161,7 +162,7 @@ border-radius:100px;}
 ********************************************
 */
 .header {
-  background-color:#ffc068;
+  background-color:#fdf2e9;
 }
 .logo {
   margin: 10px;
@@ -202,7 +203,7 @@ border-radius:100px;}
 .main-nav-link:hover,
 .main-nav-link:active
 {
-  color: #F0F8FF;
+  color: #1a1aff;
 }
 .main-nav-link-btn:link, .main-nav-link-btn:visited {
   display: inline-block;
@@ -565,7 +566,7 @@ margin-left:670px;
   padding:4rem 0;
 /*   display:grid; */
   background-color:#F5F5F5;
-  font-style:none;
+  font-style:normal;
 }
 .pricing-container {
   font-style:normal;
@@ -690,17 +691,114 @@ margin-left:670px;
           hotel feature section end
 ********************************************
 */
-/* Reviews need to be place at last. */
-/* ***************************************************************************************************************************************** */
-/* 
+/*  ****************************************
+          contact section start
+********************************************
+*/
+.contact {
+  padding:5.6rem 0;
+  font-style:normal;
+  background-color:#d8d8d8;
+  
+}
+.ct {
+  display:grid;
+  display:flex;
+  grid-template-columns:2fr 1fr;
+  background-color:#faf0e6;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  width:60rem;
+  height:30rem;
+  border-radius:20px; 
+}
+.contact-pic {
+  width:24rem;
+  height:30rem;
+  margin-left:3.6rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.bottom-right {
+  font-size:2.1rem;
+  color:#000000;
+  margin-left:3.6rem;
+  margin-top:-2.6rem;
+  width:24rem;
+  height:2rem;
+  text-align:center;
+}
+.ct-form label{
+  display:block;
+  font-size:1.5rem;
+  font-weight:500;
+  margin-bottom:0.3rem;
+  padding:0.8rem;
+  color:#ff4d4d;
+  font-size:2.5rem;
+  margin-left:5rem;
+  margin-top:1.2rem;
+}
+.ct-form input{
+  width:100%;
+  padding:1rem;
+  font-size:1.8rem;
+  border:none;
+  border-radius:10px;
+}
+.ct-form select{
+  width:100%
+  padding:1rem;
+  font-size:1.8rem;
+  border:none;
+  border-radius:10px;
+}
+.ct-form button{
+  background-color:#45260a;
+  color:#fdf2e9;
+  border-radius:10px;
+  padding:1rem;
+  margin-top:10px;
+}
+.button:link, .button:visited {}
+.contact-button:hover, .contact-button:active {
+  background-color:white;
+  color: black;
+}
+.ct-text {
+  margin-left:0.7rem;
+}
+.contact-heading {
+  padding-top:1rem;
+  color:#b30000;
+  font-size:3rem;
+  margin-left:9rem;
+}
+.contact-text {
+  text-align: justify;
+  padding:1.3rem;
+  width:500px;
+  height:30px;
+  margin-bottom:1rem;
+  color:#112A46;
+  font-size:2rem;
+}
+
+/*  ****************************************
+          contact section end
+********************************************
+ 
+/*  ****************************************
+          reviews section start
+********************************************
+*/
 .customers {
   letter-spacing: -0.5px; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 3rem;
   font-weight: 10px;
-  padding: 1rem 2rem; */
-  /*max-width:80rem;
+  padding: 1rem 2rem;
+  max-width:80rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 9.6rem;
@@ -724,9 +822,11 @@ margin-left:670px;
   border-radius: 100px;
   padding: 21px;
   max-width:100px;
-}  */
-/* Reviews need to be place at last. */
-/* ***************************************************************************************************************************************** */
+}  
+/*  ****************************************
+          reviews section end
+********************************************
+
 /* div.Human:third {
   margin-top: 20px;
   padding: 20px;

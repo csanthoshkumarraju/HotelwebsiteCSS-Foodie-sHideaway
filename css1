@@ -64,7 +64,7 @@ body {
 }
 
 .heading {
-  font_size: 90px;
+  font-size: 90px;
   font-weight:100px;
   line-height: 1.05;
   color: #333;
@@ -877,6 +877,24 @@ margin-left:670px;
   padding:2rem;
   padding-left:0.6rem;
 }
+.gototop-button:link, .gototop-button:visited {
+  display: inline-block;
+  background-color: #e6e6ff;
+  color: #b30000;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  transition: all 1s;
+  margin-right: 1rem;
+  margin-left: 62rem;
+  padding-top: -50rem;
+}
+.gototop-button:hover, .gototop-button:active {
+  background-color:#b30000;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 4px #007FFF;
+}
 /*  ****************************************
           footer section end
 ********************************************
@@ -886,3 +904,47 @@ margin-left:670px;
   padding: 20px;
   border-radius: 40px;
 } */
+/*  ****************************************
+          responsive design start
+********************************************
+*/
+/* max-width: 84rem
+based on screen size we need to give the width size */
+/* for big screens */
+/* @media (max-width: 84rem){
+  .hero{
+    max-width:120rem;
+  }
+  .heading {
+    font-size:30px;
+  }
+} */
+/* for small laptops */
+/*  @media (max-width: 74rem){
+  .hero{
+    max-width:120rem;
+  }
+  .heading {
+    font-size:30px;
+  } */
+/* for tablets */
+/*  @media (max-width: 64rem){
+  .hero{
+    max-width:120rem;
+  }
+  .heading {
+    font-size:30px;
+  } */
+/* for mobiles */
+/*  @media (max-width: 54rem){
+  .hero{
+    max-width:120rem;
+  }
+  .heading {
+    font-size:30px;
+  } */
+/*  like this based on screen size we need to give max-width size and classes size/
+/*  ****************************************
+          responsive design end
+********************************************
+*/

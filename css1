@@ -578,7 +578,7 @@ margin-left:670px;
   grid-template-columns: repeat(4, 1fr);
   gap:6rem;
   line-height:1.5;
-  margin-left:190px;
+  margin-left:120px;
 }
 .price-list {
    list-style: none;
@@ -598,6 +598,7 @@ margin-left:670px;
   border-radius:10px;
   transition: all 0.2s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding:1rem;
 }
   .Lunch {
   display:flex;
@@ -607,6 +608,7 @@ margin-left:670px;
   border-radius:10px;
   transition: all 0.2s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding:1rem;
 }
 .snacks {
   display:flex;
@@ -616,6 +618,7 @@ margin-left:670px;
   border-radius:10px;
   transition: all 0.2s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding:1rem;
 }
 .dinner {
   display:flex;
@@ -625,6 +628,7 @@ margin-left:670px;
   border-radius:10px;
   transition: all 0.2s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding:1rem;
 }
 .price-info {
   color:#0a6e77;
@@ -801,32 +805,82 @@ margin-left:670px;
   max-width:80rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 9.6rem;
-  background-color: #daa520;
+  gap: 5rem;
+  background-color: #fffbe6;
 }
 .reviews {
-  padding-left: 100px;
-  padding-top: 40px;
-  width:70px;
-  height: 50px;
+  padding-left: 40px;
+  padding-top: 70px;
+  
 }
 .reviews1 {
   margin-left: 0px;
-  margin-right: 100px;
+  margin-right: 170px;
   margin-top: 20px;
   font-size:21px;
-  background-color: #fdfff5;
+  background-color: #fff7cc;
   border-radius: 2px;
+  font-style:normal;
+  text-align: justify;
+  padding:1rem;
 }
 .reviewsi {
-  border-radius: 100px;
-  padding: 21px;
-  max-width:100px;
+  margin-left: -180px;
+  padding-top: 100px;
+/*   max-width:100px; */
 }  
 /*  ****************************************
           reviews section end
 ********************************************
-
+*/
+/*  ****************************************
+          footer section start
+********************************************
+*/
+.footer-section {
+  background-color:#f2f2f2;
+  font-style:normal; 
+  padding:2.5rem;
+}
+.container-footer {
+  display:grid;
+}
+.grid-5-cols {
+  grid-template-columns:repeat(5, 1fr);
+}
+.footer-logo {
+  background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    orange,
+                    red);
+            color:white;
+  padding:0.3rem;
+  font-size:2rem;
+}
+.footer-navi {
+  list-style:none;
+}
+.logo-column {
+  padding:2.7rem;
+  line-height:1rem;
+}
+.logo-column1 {
+  padding-top:3.4rem;
+}
+.social-media {
+  list-style:none;
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  padding:2rem;
+  padding-left:0.6rem;
+}
+/*  ****************************************
+          footer section end
+********************************************
+*/
 /* div.Human:third {
   margin-top: 20px;
   padding: 20px;
